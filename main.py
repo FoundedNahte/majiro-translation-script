@@ -69,15 +69,15 @@ def main(final_number):
     for i in range(1, 20000):
         try:
             filedata = file.readline()
-            temp = [ord(c) for c in filedata.rstrip("\n")]
+            temp_ordlist = [ord(c) for c in filedata.rstrip("\n")]
             # if filedata[0] != '<' and data.get(temp[len(temp)-2]) != 1:
             temp = len(filedata)-2
             if filedata[0] != '<':
                 outfile.write(filedata)
                 continue
-            #if data.get(temp[-2]) != 1:
-            #   outfile.write(filedata)
-            #  continue
+            elif data.get(temp_ordlist[-2]) != 1:
+               outfile.write(filedata)
+               continue
             print(filedata[7:temp])
             if key_dict.get(filedata[8:temp]) == 1: 
                 print(i)
