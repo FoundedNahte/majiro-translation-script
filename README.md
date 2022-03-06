@@ -1,6 +1,6 @@
 # majiro-translation-script
 
-Combined with the "majiro" and "mjdisasm" executables, this python script allows for automatic translation of the mjo objects within the scenario.arc file found within games made with the Majiro scripting engine.
+Combined with the "majiro" and "mjdisasm" executables, this python script allows for automatic translation of the .mjo objects within the scenario.arc file found within games made with the Majiro scripting engine.
 ## Installation
 
 Make to to pip install the argostranslate library as well as download the file for the model https://www.argosopentech.com/argospm/index/
