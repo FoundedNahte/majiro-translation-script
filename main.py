@@ -12,11 +12,7 @@ translator = installed_languages[1].get_translation(installed_languages[0])
 
 def translate(origin_text):
     return translator.translate(origin_text)
-keywords = {}
-keywords["青空"] = 1
-keywords["校舎外観昼"] = 1
-keywords["教室机有昼"] = 1
-keywords["エロい妄想"] = 1
+
 data = {}
 data[ord("。")] = 1
 data[ord("、")] = 1
