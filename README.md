@@ -10,7 +10,7 @@ pip install argostranslate
 ```
 
 ## Usage
-1) To begin with, use the majiro executable to unpack the "scenario.arc" file as well as produce .utf files for every .mjo file.
+1) To begin, use the majiro executable to unpack the "scenario.arc" file as well as produce .utf files for every .mjo file.
 
 2) Put all the .mjo and corresponding .utf files into one folder with the exectuables, script, and "scenario.arc" file
 
