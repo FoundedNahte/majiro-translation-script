@@ -1,3 +1,6 @@
+## NOTICE
+The script still needs further revision and testing as it still breaks internal calls made by the visual engine.
+
 # majiro-translation-script
 
 Combined with the "majiro" and "mjdisasm" executables, this python script allows for automatic translation of the .mjo objects within the scenario.arc file found within games made with the Majiro scripting engine.
